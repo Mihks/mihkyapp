@@ -20,11 +20,15 @@
 			
 		$(function () {
 
-
-			$.post('Ajax.php',{un:'4'},function(data){
+		$("button").click(function(){
+		
+			$.post('ajax.php',{un:'4'},function(data){
 
 				$('div').html(data);
 			});
+		
+		});
+			
 							// body...
 						}	);
 
