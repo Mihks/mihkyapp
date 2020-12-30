@@ -50,7 +50,7 @@
 								</div>
 
 							<!--excellence transport -->
-							<?php include('agence/includes/excellence_transport.php'); ?>
+							<?php include('excellence_transport.php'); ?>
 <!--------------------------------------------------------------------------------------------------------------------------------->
 
 				<?php		$reponse = $bdd->query(" SELECT 
@@ -131,7 +131,5 @@
 
 			<p class="info"><b>Important: </b>Saisir le <strong>champ</strong> "nom" est <strong>obligatoire</strong>,celui-ci vous servira <strong>d'identifiant</strong>.<br/>Le <strong>type de réservation</strong> indique si le billet que vous sollicitez est un simple billet <strong>aller</strong> ou alors un billet <strong>aller-retour</strong> dans le cas d'un billet <strong>aller-retour</strong>,2 champs <strong>obligatoires</strong> apparaitront <strong>'Date de Retour' et' Heure de retour'</strong> .<br/><br/>Le 3e champ indique le <strong>nombre de place que vous reservez</strong>.<br/><br/><strong>Agence</strong> indique l'agence avec laquelle vous souhaitez <strong> voyager</strong>,selon le choix de cette dernière, vous serez amenés à sélectionner un <strong>trajet</strong>.<br/><br/><strong>Trajet</strong> indique le <strong>tronçon</strong> à effectuer. Les trajets disponibles, dépendent de ceux proposés par chacune des agences.<br/> <br/>Les champs <strong>Date de depart</strong> et <strong>heure de Depart</strong> indiquent <strong>respèctivemment le jour et l'heure</strong> du voyage.<br/><br/>.Pour plus <strong>d'infos ou un problème</strong> avec le <strong>formulaire n'hésitez</strong> pas à nous contacter.</p>
 
-
-		</section>
 
 <?php include_once 'footer.php'; ?>
