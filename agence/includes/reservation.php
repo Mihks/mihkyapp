@@ -1,4 +1,4 @@
-			
+<?php include_once 'agence/includes/header.php'; ?>			
 <!-- Start Form-->
 			<h2 id="reserve">Réservation</h2>
 
@@ -133,3 +133,5 @@
 
 
 		</section>
+
+<?php include_once 'agence/includes/footer.php'; ?>
