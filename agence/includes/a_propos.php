@@ -1,4 +1,4 @@
-<?php include_once 'agence/includes/header.php'; ?>
+<?php include_once 'header.php'; ?>
 <article>
 
 				<div id="a_propos">
@@ -16,4 +16,4 @@
 					
 				</div>
 			</article>
-<?php include_once 'agence/includes/footer.php'; ?>
+<?php include_once 'footer.php'; ?>
