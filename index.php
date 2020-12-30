@@ -86,14 +86,7 @@ include_once 'fonction.php';
 			<img class="img-diaspo" height='200' width='250' src="agence/images/presentation.jpg" id="img1">	 -->
 
 			
-<!-- Start Form-->
-
-<?php include_once 'agence/includes/reservation.php'; ?>
-
-<?php include_once 'agence/includes/a_propos.php'; ?>
-
-<?php include_once 'agence/includes/contact.php'; ?>
-			
+<!-- Start Form-->	
 		
 		</section>
 
