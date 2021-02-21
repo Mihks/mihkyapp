@@ -21,7 +21,7 @@ if ($text == "") {
     // Business logic for first level response
     // This is a terminal request. Note how we start the response with END
     $place = array();
-    $response = "END Nombre de place \n";
+    $response = "END Nombre de place ".$sessionId;
     
 } else if($text == "1*1") { 
     // This is a second level response where the user selected 1 in the first instance
