@@ -8,12 +8,12 @@ $networkCode = $_POST["networkCode"];
 
 if ($text == "") {
     // This is the first request. Note how we start the response with CON
-    $response  = "CON Interface Flemard réservation \n";
+    $response  = "CON Interface Flemard réservation \n".$sessionId;
     $response .= "1. votre nom";
 
 } else if ($text == "1") {
     // Business logic for first level response
-    $response = "CON Type de reservation \n";
+    $response = "CON Type de reservation \n".$sessionId;
     $response .= "1. Aller-simple \n";
     $response .= "2. Aller-retour";
 
