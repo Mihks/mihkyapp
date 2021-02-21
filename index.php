@@ -1,19 +1,21 @@
 <?php
+// session_start();
+
 // Read the variables sent via POST from our API
 $sessionId   = $_POST["sessionId"];
 $serviceCode = $_POST["serviceCode"];
 $phoneNumber = $_POST["phoneNumber"];
 $text        = $_POST["text"];
 $networkCode = $_POST["networkCode"];
-
+// $_SESSION['name'] 
 if ($text == "") {
     // This is the first request. Note how we start the response with CON
-    $response  = "CON Interface Flemard réservation \n";
+    $response  = "CON Interface Flemard réservation \n".$text;
     $response .= "1. votre nom";
 
 } else if ($text == "1") {
     // Business logic for first level response
-    $response = "CON Type de reservation \n";
+    $response = "CON Type de reservation \n".$text;
     $response .= "1. Aller-simple \n";
     $response .= "2. Aller-retour";
 
@@ -21,7 +23,7 @@ if ($text == "") {
     // Business logic for first level response
     // This is a terminal request. Note how we start the response with END
     $place = array();
-    $response = "END Nombre de place ";
+    $response = "END Nombre de place ".$text$text;
     
 } else if($text == "1*1") { 
     // This is a second level response where the user selected 1 in the first instance
